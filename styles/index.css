@@ -46,3 +46,40 @@ height: 240px;
 
 
 }
+/* banner sty;e */
+.action-section{
+  display:flex;
+  justify-content: space-between;
+align-items: center;
+margin: 60px;
+padding: 40px;
+}
+.text-content h2{
+  font-size: 28px;
+margin-bottom: 10px;
+color: #252432;
+}
+
+.text-content p {
+  max-width: 350px;
+margin-bottom: 20px;
+color:#252432 ;
+}
+
+.preview-btn {
+  background-color: #4e3efc;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.image-content img {
+  width: 350px;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
