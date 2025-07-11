@@ -7,3 +7,42 @@
   font-variation-settings:
     "wdth" 100;
 }
+
+header{
+
+}
+/* action style */
+.action-title{
+  display: flex;
+  justify-content:space-around;
+  width: 1140px;
+  height: 151px;
+  padding-top: 20px;
+
+}
+.title{
+  color: #4E47FF;
+  width: 100px;
+  height: 40px;
+  font-size: 30px;
+}
+.btn-title{
+  width: 130px;
+  height: 60px;
+  background-color: #4E47FF;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.action-footer{
+font-size: 60px;
+font-weight: bold;
+
+}
+.title-footer{
+  text-align: center;
+  width:900px;
+height: 240px;
+
+
+}
