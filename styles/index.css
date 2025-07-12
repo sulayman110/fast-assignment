@@ -7,43 +7,78 @@
   font-variation-settings:
     "wdth" 100;
 }
+.hero {
+  background-image: url('https://www.transparenttextures.com/patterns/connected.png'); /* optional background pattern */
+  background-color: #f4f6ff;
+  min-height: 100vh;
+  padding: 40px 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  position: relative;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  color: #4a4aff;
+  font-weight: bold;
+  margin: 0;
+}
+
+.signup-btn {
+  background-color: #4a4aff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.signup-btn:hover {
+  background-color: #3737e6;
+}
+
+.hero-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 100px;
+}
+
+.hero-content h1 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #1e1e2f;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.primary-btn {
+  background-color: #4a4aff;
+  color: #fff;
+  padding: 12px 30px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.primary-btn:hover {
+  background-color: #3737e6;
+}
 
 /* action style */
-.action-title{
-  display: flex;
-  justify-content:space-around;
-  width: 1140px;
-  height: 151px;
-  padding-top: 20px;
-
-}
-.title{
-  color: #4E47FF;
-  width: 100px;
-  height: 40px;
-  font-size: 30px;
-}
-.btn-title{
-  width: 130px;
-  height: 60px;
-  background-color: #4E47FF;
-  font-size: 16px;
-  font-weight: bold;
-  border-radius: 5px;
-}
-.action-footer{
-font-size: 60px;
-font-weight: bold;
-
-}
-.title-footer{
-  text-align: center;
-  width:900px;
-height: 240px;
-
-
-}
-/* banner sty;e */
 .action-section{
   display:flex;
   justify-content: space-between;
